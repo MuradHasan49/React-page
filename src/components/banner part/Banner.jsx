@@ -70,7 +70,7 @@ const BannerSlider = () => {
         </div>
 
     <div >
-      <img src="/public/Line 4.png" alt="" />
+      <img src="/Line 4.png" alt="" />
     </div>
 
         <div className="bannerW overflow-hidden rounded-lg">
