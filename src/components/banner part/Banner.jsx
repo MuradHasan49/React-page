@@ -3,8 +3,9 @@ import { useState, useEffect } from "react";
 
 const BannerSlider = () => {
   const slides = [
-    "/public/Banner.png",
-    "/public/Banner.png",
+    "/Banner.png",
+    "/Banner.png",
+    "/Banner.png",
   ];
 
   const [current, setCurrent] = useState(0);
