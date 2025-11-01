@@ -4,10 +4,10 @@ import { useState, useEffect } from "react";
 
 const BannerSlider = () => {
   const slides = [
-    "../src/assets/banner-img/Banner.png",
-    "../src/assets/banner-img/Banner.png",
-    "../src/assets/banner-img/Banner.png",
-    "../src/assets/banner-img/Banner.png",
+    "../src/assets/bannerimg/Banner.png",
+    "../src/assets/bannerimg/Banner.png",
+    "../src/assets/bannerimg/Banner.png",
+    "../src/assets/bannerimg/Banner.png",
 
   ];
 
