@@ -6,6 +6,8 @@ const BannerSlider = () => {
     "/Banner.png",
     "/Banner.png",
     "/Banner.png",
+    "/Banner.png",
+    "/Banner.png",
   ];
 
   const [current, setCurrent] = useState(0);
@@ -17,7 +19,7 @@ const BannerSlider = () => {
 
     const timer = setInterval(() => {
       setCurrent((prev) => (prev + 1) % slides.length);
-    }, 2000);
+    }, 3000);
 
     return () => clearInterval(timer);
   }, [slides.length, isHovered]);
