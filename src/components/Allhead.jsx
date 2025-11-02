@@ -1,6 +1,6 @@
 import React from "react";
 
-const All_head = ({head,h1}) => {
+const All_head = ({ head, h1 }) => {
   return (
     <>
       <div className="container mx-auto py-15">

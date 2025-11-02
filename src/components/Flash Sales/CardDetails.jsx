@@ -46,7 +46,6 @@ const CardDetails = () => {
           </button>
         </div>
 
-        {/* Slider Content */}
         <div className="flex justify-center  overflow-hidden scroll-smooth product-slider">
           <SalesCard
             Discount="-40%"
@@ -147,8 +146,8 @@ const CardDetails = () => {
             rating={5}
             totaled={88}
           />
-          
-               <SalesCard
+
+          <SalesCard
             Discount="-40%"
             img="/Flash/joy.png"
             h2="HAVIT HV-G92 Gamepad"

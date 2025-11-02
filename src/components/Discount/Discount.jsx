@@ -10,7 +10,10 @@ const Discount = () => {
               Summer Sale For All Swim Suits And Free Express Delivery - OFF
               50%!
             </p>
-            <a className="font-bold" href="">
+            <a
+              className="font-bold underline-offset-4 hover:underline transition-all duration-300 ease-in-out"
+              href=""
+            >
               ShopNow
             </a>
           </div>

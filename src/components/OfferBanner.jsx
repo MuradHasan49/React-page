@@ -38,14 +38,12 @@ const MusicExperience = () => {
   return (
     <section className=" container xl: w-full mx-auto p-4 sm:p-6 md:p-10">
       <div className="relative">
-        {/* Background Image */}
         <img
           className="w-full rounded-2xl object-cover h-[400px] sm:h-[500px] md:h-[600px]"
           src="/Sell/Frame 600.png"
           alt="Music Experience"
         />
 
-        {/* Overlay content */}
         <div className="absolute inset-0 flex flex-col items-start justify-center text-left px-6 sm:px-10 md:px-16 gap-6 sm:gap-8">
           <span className="text-xs sm:text-sm font-semibold text-white uppercase tracking-wider">
             Categories
@@ -57,7 +55,6 @@ const MusicExperience = () => {
             <span className="text-gray-200">Music Experience</span>
           </h1>
 
-          {/* Countdown Timer */}
           <div className="grid grid-cols-4 gap-3 sm:gap-4 w-full max-w-xs sm:max-w-md">
             {[
               { label: "Days", value: timeLeft.days },
@@ -65,16 +62,20 @@ const MusicExperience = () => {
               { label: "Minutes", value: timeLeft.minutes },
               { label: "Seconds", value: timeLeft.seconds },
             ].map((item, i) => (
-              <div key={i} className="text-center bg-white rounded-lg shadow-md p-2 sm:p-3">
+              <div
+                key={i}
+                className="text-center bg-white rounded-lg shadow-md p-2 sm:p-3"
+              >
                 <div className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900">
                   {item.value.toString().padStart(2, "0")}
                 </div>
-                <div className="text-[10px] sm:text-xs text-gray-500 mt-1">{item.label}</div>
+                <div className="text-[10px] sm:text-xs text-gray-500 mt-1">
+                  {item.label}
+                </div>
               </div>
             ))}
           </div>
 
-          {/* Button */}
           <button className="mt-4 sm:mt-6 bg-red-600 hover:bg-red-700 text-white font-semibold py-3 sm:py-4 px-6 sm:px-10 rounded-lg transition duration-300 transform hover:scale-105">
             Buy Now!
           </button>

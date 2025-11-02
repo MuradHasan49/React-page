@@ -12,12 +12,12 @@ const BSDetails = () => {
             <All_head head={"This Month"} h1={"Best Selling Products"} />
           </div>
           <div>
-            <SecondBTN BTNtext={"View All"}/>
+            <SecondBTN BTNtext={"View All"} />
           </div>
         </div>
 
         <div className="flex overflow-hidden p-0">
-          <SalesCard 
+          <SalesCard
             Discount=""
             img="/Sell/Frame605.png"
             h2="The north coat"
@@ -26,8 +26,8 @@ const BSDetails = () => {
             rating={4}
             totaled={70}
           />
-          
-          <SalesCard 
+
+          <SalesCard
             Discount=""
             img="/Sell/Frame606.png"
             h2="Gucci duffle bag"
@@ -36,8 +36,8 @@ const BSDetails = () => {
             rating={3}
             totaled={30}
           />
-          
-          <SalesCard 
+
+          <SalesCard
             Discount=""
             img="/Sell/Frame610.png"
             h2="RGB liquid CPU Cooler"
@@ -46,8 +46,8 @@ const BSDetails = () => {
             rating={5}
             totaled={140}
           />
-          
-          <SalesCard 
+
+          <SalesCard
             Discount=""
             img="/Sell/Frame612.png"
             h2="Small BookSelf"
@@ -56,9 +56,9 @@ const BSDetails = () => {
             rating={3}
             totaled={49}
           />
-          
-          <SalesCard 
-              Discount="-35%"
+
+          <SalesCard
+            Discount="-35%"
             img="/Flash/keyboard.png"
             h2="AK-900 Wired Keyboard"
             price="$900"
@@ -66,7 +66,6 @@ const BSDetails = () => {
             rating={5}
             totaled={99}
           />
-          
         </div>
       </div>
     </>

@@ -6,7 +6,7 @@ const Navbar = () => {
     <>
       <nav className="border-b border-gray-300 shadow-sm">
         <div className="container flex justify-between items-center mx-auto p-5">
-          <div className=" text-2xl font-bold">MHS Exclusive</div>
+          <div className=" text-2xl font-bold text-red-600 cursor-pointer">MHS Exclusive</div>
 
           <div className="flex gap-12 text-base font-semibold">
             {["Home", "Contact", "About", "Sign Up"].map((item) => (
@@ -23,7 +23,6 @@ const Navbar = () => {
           </div>
 
           <div className="flex items-center gap-4">
-            {/* Search */}
             <div className="flex items-center bg-gray-300 rounded-lg px-2 py-1">
               <input
                 className="bg-gray-300 text-black px-2 py-1 outline-none placeholder:text-gray-600 placeholder:font-small placeholder:w-50 p-2 rounded"
@@ -42,7 +41,6 @@ const Navbar = () => {
               </a>
             </div>
 
-            {/* Icons */}
             <div className="flex gap-2">
               <a href="#">
                 <svg

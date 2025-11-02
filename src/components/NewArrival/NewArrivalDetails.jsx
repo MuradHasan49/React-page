@@ -9,9 +9,7 @@ const NewArrivalDetails = () => {
         <All_head head={"Featured"} h1={"New Arrival"} />
 
         <section className="w-full mx-auto p-4">
-          {/* Use small horizontal gap and even smaller vertical gap */}
           <div className="grid grid-cols-1 md:grid-cols-3 md:gap-x-1 md:gap-y-2 ">
-            {/* Left Big Image */}
             <div className="md:col-span-2">
               <div className="relative">
                 <div className="absolute bottom-0 left-0">
@@ -28,9 +26,7 @@ const NewArrivalDetails = () => {
               </div>
             </div>
 
-            {/* Right Side Grid */}
             <div className="grid grid-rows-2 gap-2 ">
-              {/* Top Image */}
               <div className="relative">
                 <div className="absolute bottom-0 left-0">
                   <ArrivalButton
@@ -45,7 +41,6 @@ const NewArrivalDetails = () => {
                 />
               </div>
 
-              {/* Bottom Grid (2 small images) */}
               <div className="grid grid-cols-2 gap-2">
                 <div className="">
                   <div className="relative">

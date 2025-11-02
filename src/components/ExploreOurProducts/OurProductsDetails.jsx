@@ -99,8 +99,8 @@ const OurProductsDetails = () => {
             />
           </div>
         </div>
-          <div className=" flex justify-center text-center">
-          <FirstBTN/>
+        <div className=" flex justify-center text-center">
+          <FirstBTN />
         </div>
       </div>
     </>

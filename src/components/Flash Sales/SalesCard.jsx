@@ -25,7 +25,11 @@ const SalesCard = ({
               <a href="#">Add To Cart</a>
             </div>
 
-            <img className="p-10 px-4 transition duration-300 transform group-hover:scale-105" src={img} alt={h2} />
+            <img
+              className="p-10 px-4 transition duration-300 transform group-hover:scale-105"
+              src={img}
+              alt={h2}
+            />
 
             {Discount && (
               <div className="px-3 py-2 rounded-sm bg-red-700 text-white absolute top-2 left-2">
