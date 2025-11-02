@@ -5,9 +5,9 @@ import CategoryBox from "./CategoryBox";
 const CategoryDetails = () => {
   return (
     <>
-      <All_head head={"Categories"} h1={"Browse By Category"} />
       <div className="container xl:mx-auto flex flex-col p-5">
-        <div className=" flex gap-8 justify-center overflow-hidden scroll-smooth product-slider">
+        <All_head head={"Categories"} h1={"Browse By Category"} />
+        <div className=" flex justify-center overflow-hidden scroll-smooth product-slider">
           <CategoryBox
             src={"/Category/Category-CellPhone.png"}
             boxname={"Phone"}
@@ -33,9 +33,9 @@ const CategoryDetails = () => {
             boxname={"Gaming"}
           />
         </div>
-          <div className="">
-            <img className="w-full my-17" src="/Line.png" alt="" />
-          </div>
+        <div className="">
+          <img className="w-full my-17" src="/Line.png" alt="" />
+        </div>
       </div>
     </>
   );
