@@ -57,31 +57,30 @@ const FlashHead = () => {
 
         <div className="flex gap-6 items-center mr-180">
           <div className="flex flex-col items-center">
-            <span className="text-xs font-medium text-gray-600">Days</span>
+            <span className="text-xs font-medium text-gray-600  mr-4">Days</span>
             <span className="text-3xl font-bold text-black">
               {timeLeft.days} <span className="text-red-600">:</span>
             </span>
           </div>
 
           <div className="flex flex-col items-center">
-            <span className="text-xs font-medium text-gray-600">Hours</span>
+            <span className="text-xs font-medium text-gray-600 mr-4">Hours</span>
             <span className="text-3xl font-bold text-black">
               {timeLeft.hours} <span className="text-red-600">:</span>
             </span>
           </div>
 
           <div className="flex flex-col items-center">
-            <span className="text-xs font-medium text-gray-600">Minutes</span>
+            <span className="text-xs font-medium text-gray-600 mr-4">Minutes</span>
             <span className="text-3xl font-bold text-black">
               {timeLeft.minutes} <span className="text-red-600">:</span>
             </span>
           </div>
 
           <div className="flex flex-col items-center">
-            <span className="text-xs font-medium text-gray-600">Seconds</span>
-            <span className="text-3xl font-bold text-black">
+            <span className="text-xs font-medium text-gray-600 ">Seconds</span>
+            <span className="text-3xl font-bold text-black ">
               {timeLeft.seconds}
-              <span className="text-red-600 opacity-0">:</span>
             </span>
           </div>
         </div>
