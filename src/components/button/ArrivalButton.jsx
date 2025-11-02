@@ -1,19 +1,20 @@
 import React from "react";
 
-const ArrivalButton = ({p,h}) => {
+const ArrivalButton = ({ p, h }) => {
   return (
     <>
-      <div className="flex flex-col gap-5 p-12">
+      <div className="flex flex-col gap-3 p-6">
         <h1 className="text-3xl font-semibold text-white">{h}</h1>
-        <p className="text-sm text-white">
-          {p}
-        </p>
+        <p className="text-sm text-white">{p}</p>
         <div className="flex gap-2 group">
-          <a className="font-medium text-white underline underline-offset-5" href="#">
+          <a
+            className="font-medium text-white underline underline-offset-5"
+            href="#"
+          >
             Shop Now
           </a>
           <svg
-            className="w-5 h-5 mt-1 text-white fill-current"
+            className="w-5 h-5 mt-1 text-white fill-current transition-all duration-300 ease-in-out group-hover:ml-2"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 640 640"
           >

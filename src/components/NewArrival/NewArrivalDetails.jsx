@@ -10,26 +10,34 @@ const NewArrivalDetails = () => {
 
         <section className="w-full mx-auto p-4">
           {/* Use small horizontal gap and even smaller vertical gap */}
-          <div className="grid grid-cols-1 md:grid-cols-3 md:gap-x-1 md:gap-y-2 relative ">
+          <div className="grid grid-cols-1 md:grid-cols-3 md:gap-x-1 md:gap-y-2 ">
             {/* Left Big Image */}
             <div className="md:col-span-2">
-              <img
-                src="/NewArrival/Frame1.png"
-                alt="PlayStation 5"
-                className="w-full h-150 object-fill rounded-2xl shadow-lg "
-              />
-            </div>
-            <div className="absolute bottom-0 left-0">
-              <ArrivalButton
-                h={"PlayStation 5"}
-                p={"Black and White version of the PS5 coming out on sale."}
-              />
+              <div className="relative">
+                <div className="absolute bottom-0 left-0">
+                  <ArrivalButton
+                    h={"PlayStation 5"}
+                    p={"Black and White version of the PS5 coming out on sale."}
+                  />
+                </div>
+                <img
+                  src="/NewArrival/Frame1.png"
+                  alt="PlayStation 5"
+                  className="w-full h-150 object-fill rounded-2xl shadow-lg "
+                />
+              </div>
             </div>
 
             {/* Right Side Grid */}
-            <div className="grid grid-rows-2 gap-2">
+            <div className="grid grid-rows-2 gap-2 ">
               {/* Top Image */}
-              <div>
+              <div className="relative">
+                <div className="absolute bottom-0 left-0">
+                  <ArrivalButton
+                    h={"Women’s Collections"}
+                    p={"Featured woman collections that give you another vibe."}
+                  />
+                </div>
                 <img
                   src="/NewArrival/Frame2.png"
                   alt="Fashion Model"
@@ -39,16 +47,32 @@ const NewArrivalDetails = () => {
 
               {/* Bottom Grid (2 small images) */}
               <div className="grid grid-cols-2 gap-2">
-                <img
-                  src="/NewArrival/Frame3.png"
-                  alt="Amazon Echo"
-                  className="w-full h-75 object-cover rounded-2xl shadow-lg"
-                />
-                <img
-                  src="/NewArrival/Frame4.png"
-                  alt="Gucci Perfume"
-                  className="w-full h-75 object-cover rounded-2xl shadow-lg"
-                />
+                <div className="">
+                  <div className="relative">
+                    <div className="absolute bottom-0 left-0">
+                      <ArrivalButton
+                        h={"Speakers"}
+                        p={"Amazon wireless speakers"}
+                      />
+                    </div>
+                    <img
+                      src="/NewArrival/Frame3.png"
+                      alt="Amazon Echo"
+                      className="w-full h-73 object-cover rounded-2xl shadow-lg"
+                    />
+                  </div>
+                </div>
+
+                <div className="relative">
+                  <div className="absolute bottom-0 left-0">
+                    <ArrivalButton h={"Perfume"} p={"GUCCI INTENSE OUD EDP"} />
+                  </div>
+                  <img
+                    src="/NewArrival/Frame4.png"
+                    alt="Gucci Perfume"
+                    className="w-full h-73 object-cover rounded-2xl shadow-lg"
+                  />
+                </div>
               </div>
             </div>
           </div>
