@@ -15,9 +15,9 @@ This project showcases a clean user interface, smooth user experience, and a str
 |-----------|-------------|
 | **Frontend Framework** | React.js (with Vite) |
 | **Styling** | Tailwind CSS |
-| **State Management** | React Hooks |
 | **Deployment** | Netlify |
 | **Icons** | Font Awesome / React Icons |
+| **State Management** | React Hooks |
 
 
 
