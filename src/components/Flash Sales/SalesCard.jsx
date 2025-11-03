@@ -13,10 +13,10 @@ const SalesCard = ({
     <>
       <div className="container xl:mx-auto p-5">
         <div
-          className="w-66 h-88 bg-amber-50 rounded-lg p-4 group hover:shadow-lg 
+          className="w-66 h-88  rounded-lg p-4 shadow-lg group hover:  
         transition-all duration-300 ease-in-out cursor-pointer"
         >
-          <div className="h-62 w-full bg-amber-100 rounded-lg relative">
+          <div className="h-62 w-full bg-[#F5F5F5] rounded-lg relative">
             <div
               className="h-10 w-full bg-black text-white text-center pt-2 absolute bottom-0 rounded-b-lg 
               opacity-0 translate-y-3 group-hover:opacity-100 group-hover:translate-y-0 

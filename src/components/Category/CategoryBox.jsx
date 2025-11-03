@@ -9,10 +9,11 @@ const CategoryBox = ({ src, boxname }) => {
                    transition-all duration-300 hover:bg-red-600 hover:rounded-lg hover:shadow-lg cursor-pointer"
         >
           <img
-            className="h-14 w-14 transition-transform duration-300 group-hover:scale-110"
+            className="h-14 w-14 transition-all duration-300 group-hover:scale-110 group-hover:brightness-0 group-hover:invert"
             src={src}
             alt={boxname}
           />
+
           <p className="font-medium text-gray-800 group-hover:text-white">
             {boxname}
           </p>

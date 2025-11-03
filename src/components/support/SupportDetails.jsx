@@ -4,8 +4,8 @@ import SupportBox from "./SupportBox";
 const SupportDetails = () => {
   return (
     <>
-      <div className="container xl: mx-auto p-5 relative">
-        <div className="flex gap-22 justify-center mt-30">
+      <div className="container xl: mx-auto p-5 mt-30 relative">
+        <div className="flex xl:flex-row gap-22 md:flex flex-col md:gap-11 items-center justify-center">
           <SupportBox
             src={"/Support/Services.png"}
             h1={"FREE AND FAST DELIVERY"}
@@ -30,7 +30,7 @@ const SupportDetails = () => {
                 behavior: "smooth",
               })
             }
-            className="w-12 h-12 p-2 absolute bottom-4 right-4 bg-red-500 rounded-lg
+            className="w-12 h-12 p-2 absolute -bottom-12 right-12 bg-red-500 rounded-lg
                transition-transform duration-300 ease-in-out hover:-translate-y-3"
           >
             <svg

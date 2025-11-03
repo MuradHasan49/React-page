@@ -28,18 +28,19 @@ const NewArrivalDetails = () => {
 
             <div className="grid grid-rows-2 gap-2 ">
               <div className="relative">
-                <div className="absolute bottom-0 left-0">
+                <img
+                  src="/NewArrival/Frame2.png"
+                  alt="Fashion Model"
+                  className="w-full h-full mt-1 object-cover rounded-2xl shadow-lg"
+                />
+                                <div className="absolute bottom-0 left-0">
                   <ArrivalButton
                     h={"Women’s Collections"}
                     p={"Featured woman collections that give you another vibe."}
                   />
                 </div>
-                <img
-                  src="/NewArrival/Frame2.png"
-                  alt="Fashion Model"
-                  className="w-full h-75 object-cover rounded-2xl shadow-lg"
-                />
               </div>
+              
 
               <div className="grid grid-cols-2 gap-2">
                 <div className="">
