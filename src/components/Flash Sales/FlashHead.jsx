@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 const FlashHead = () => {
   // Set your countdown target date/time
-  const targetDate = new Date().getTime() + 3 * 24 * 60 * 60 * 1000; // 3 days from now
+  const targetDate = new Date().getTime() + 3 * 24 * 60 * 60 * 1000; 
 
   const [timeLeft, setTimeLeft] = useState({
     days: "00",
@@ -43,7 +43,7 @@ const FlashHead = () => {
     }, 1000);
 
     return () => clearInterval(timer);
-  }, []);
+  },[]);
 
   return (
     <div className="container mx-auto p-5 mt-10">
