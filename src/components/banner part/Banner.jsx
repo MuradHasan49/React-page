@@ -62,19 +62,18 @@ const BannerSlider = () => {
       <div className="w-full md:w-3/4 relative  rounded-lg ">
         <Slider {...settings}>
           <div>
-            {" "}
             <img className="w-full" src={BannerImg} alt="" />
           </div>
           <div>
-            {" "}
             <img className="w-full" src={BannerImg} alt="" />
           </div>
           <div>
-            {" "}
             <img className="w-full" src={BannerImg} alt="" />
           </div>
           <div>
-            {" "}
+            <img className="w-full" src={BannerImg} alt="" />
+          </div>
+          <div>
             <img className="w-full" src={BannerImg} alt="" />
           </div>
         </Slider>
