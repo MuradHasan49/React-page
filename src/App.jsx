@@ -28,6 +28,7 @@ function App() {
     <NewArrivalDetails/>
     <SupportDetails/>
     <Footer/>
+
     </>
   )
 }
