@@ -25,7 +25,6 @@ const SalesCard = ({
               >
                 <a href="#">Add To Cart</a>
               </div>
-
               <img
                 className="p-10 px-4 transition duration-300 transform group-hover:scale-105"
                 src={img}
