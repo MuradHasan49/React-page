@@ -4,8 +4,8 @@ const Discount = () => {
   return (
     <>
       <div className="bg-black h-12 flex items-center">
-        <div className="container">
-          <div className=" mx-auto flex justify-center items-center px-4">
+        <div className="container mx-auto flex justify-between items-center">
+          <div className="mx-auto flex justify-center items-center px-4">
             <div className="text-white flex flex-col sm:flex-row items-center justify-center sm:justify-start gap-1 sm:gap-5 text-center sm:text-left font-semibold text-[12px] sm:text-[14px] md:text-[16px] xl:h-full">
               <p>
                 Summer Sale For All Swim Suits And Free Express Delivery -{" "}
@@ -28,6 +28,7 @@ const Discount = () => {
               </a>
             </div>
           </div>
+
           <div className="flex items-center">
             <select className="bg-transparent text-white px-2 py-1 text-sm sm:text-base rounded-lg focus:outline-none focus:ring-0 cursor-pointer">
               <option className="bg-gray-700 text-white" value="en">
@@ -38,7 +39,7 @@ const Discount = () => {
               </option>
             </select>
           </div>
-        </div>
+      </div>
       </div>
     </>
   );
