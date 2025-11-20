@@ -4,7 +4,7 @@ const Discount = () => {
   return (
     <>
       <div className="bg-black h-12 flex items-center">
-        <div className="container mx-auto flex justify-between items-center">
+        <div className="container p-5 mx-auto flex justify-between items-center">
           <div className="mx-auto flex justify-center items-center px-4">
             <div className="text-white flex flex-col sm:flex-row items-center justify-center sm:justify-start gap-1 sm:gap-5 text-center sm:text-left font-semibold text-[12px] sm:text-[14px] md:text-[16px] xl:h-full">
               <p>
