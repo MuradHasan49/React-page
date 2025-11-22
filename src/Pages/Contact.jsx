@@ -7,6 +7,7 @@ const Contact = () => {
   return (
     <>
       <div className="flex flex-col items-center md:flex gap-[30px] py-32 md:flex-row md:justify-center">
+        
         {/* left side */}
         <div className=" p-5 md:p-10 rounded-[10px] border border-[#E0E0E0] shadow-lg ">
           <div className="w-[270px] h-full flex flex-col justify-between">
@@ -39,7 +40,7 @@ const Contact = () => {
         {/* right side */}
         <div className="flex flex-col items-end p-8 rounded-[10px] border border-[#E0E0E0] shadow-lg">
           <div className="w-full md:w-[737px] md:h-[377px]">
-            
+
             <div className="flex flex-col md:flex-row gap-4">
               <input
                 className="w-full md:w-[245px] md:h-[50px] outline-none bg-[#F5F5F5] p-4"
