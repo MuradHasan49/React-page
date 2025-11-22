@@ -35,49 +35,47 @@ const Contact = () => {
           </div>
         </div>
 
-  <div className="flex flex-col items-end p-8 rounded-[10px] border border-[#E0E0E0] shadow-lg">
-  <div className="w-full md:w-[737px] md:h-[377px]">
+        <div className="flex flex-col items-end p-8 rounded-[10px] border border-[#E0E0E0] shadow-lg">
+          <div className="w-full md:w-[737px] md:h-[377px]">
+            {/* Input Row */}
+            <div className="flex flex-col md:flex-row gap-4">
+              <input
+                className="w-full md:w-[245px] md:h-[50px] outline-none bg-[#F5F5F5] p-4"
+                type="text"
+                placeholder="Your Name *"
+                required
+              />
 
-    {/* Input Row */}
-    <div className="flex flex-col md:flex-row gap-4">
-      <input
-        className="w-full md:w-[245px] md:h-[50px] outline-none bg-[#F5F5F5] p-4"
-        type="text"
-        placeholder="Your Name *"
-        required
-      />
+              <input
+                className="w-full md:w-[245px] md:h-[50px] bg-[#F5F5F5] p-4"
+                type="email"
+                placeholder="Your Email *"
+                required
+              />
 
-      <input
-        className="w-full md:w-[245px] md:h-[50px] bg-[#F5F5F5] p-4"
-        type="email"
-        placeholder="Your Email *"
-        required
-      />
+              <input
+                className="w-full md:w-[245px] md:h-[50px] bg-[#F5F5F5] p-4"
+                type="text"
+                placeholder="Your Phone *"
+                required
+              />
+            </div>
 
-      <input
-        className="w-full md:w-[245px] md:h-[50px] bg-[#F5F5F5] p-4"
-        type="text"
-        placeholder="Your Phone *"
-        required
-      />
-    </div>
-
-    {/* Message Box */}
-    <div className="py-8">
-      <textarea
-        className="w-full md:h-[207px] outline-none bg-[#F5F5F5] 
+            {/* Message Box */}
+            <div className="py-8">
+              <textarea
+                className="w-full md:h-[207px] outline-none bg-[#F5F5F5] 
                    placeholder:text-start placeholder:text-gray-500 p-4 resize-none"
-        placeholder="Your Message *"
-      />
-    </div>
-  </div>
+                placeholder="Your Message *"
+              />
+            </div>
+          </div>
 
-  {/* Button */}
-  <div>
-    <SecondBTN BTNtext={"Send Massage"} />
-  </div>
-</div>
-
+          {/* Button */}
+          <div>
+            <SecondBTN BTNtext={"Send Massage"} />
+          </div>
+        </div>
       </div>
     </>
   );
