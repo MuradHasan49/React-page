@@ -37,6 +37,7 @@ const Contact = () => {
         </div>
 
         
+        {/* right side */}
         <div className="flex flex-col items-end p-8 rounded-[10px] border border-[#E0E0E0] shadow-lg">
           <div className="w-full md:w-[737px] md:h-[377px]">
             {/* Input Row */}
