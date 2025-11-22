@@ -8,7 +8,7 @@ const Contact = () => {
       <div className="flex flex-col items-center md:flex gap-[30px] py-32 md:flex-row md:justify-center">
 
         {/* left side */}
-        <div className=" p-5 md:p-10 rounded-[10px] border border-[#E0E0E0] shadow-lg ">
+        <div className=" p-5 md:p-6 rounded-[10px] border border-[#E0E0E0] shadow-lg ">
           <div className="w-[270px] h-full flex flex-col justify-between">
             <div className="">
               <div className="flex items-center gap-3 text-2xl font-semibold mb-4">
@@ -22,7 +22,7 @@ const Contact = () => {
                 <p>Phone: +8801611112222</p>
               </div>
             </div>
-            <div className="border-t border-gray-300 my-8 flex flex-col  gap-4                ">
+            <div className="border-t border-gray-300 my-12 flex flex-col  gap-4                ">
               <div className="flex items-center gap-3 text-2xl font-semibold mb-4 mt-16">
                 <div className="p-2.5 bg-red-500 rounded-full text-white">
                   <AiOutlineMail />
