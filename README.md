@@ -6,7 +6,7 @@ This project showcases a clean user interface, smooth user experience, and a str
 
 ## 🚀 Live Demo
 
-👉 **[Visit the Live Site](https://react-e-commerce-9bstc2kgk-mmur5264-gmailcoms-projects.vercel.app/)**
+👉 **[Visit the Live Site](https://react-e-commerce-eight-sigma.vercel.app/)**
 
 
 ## 🧰 Tech Stack
