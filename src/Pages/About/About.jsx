@@ -28,7 +28,7 @@ const About = () => {
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 1, 
+          slidesToShow: 1,
           slidesToScroll: 1,
         },
       },
@@ -78,7 +78,7 @@ const About = () => {
         </div>
 
         {/* slider content */}
-        <div className="py-34 ">
+        <div className="sl py-34 ">
           <div className="slider-container p-[30px] md:p-0">
             <Slider className="" {...settings}>
               <div>
@@ -143,6 +143,20 @@ const About = () => {
           <SupportDetails />
         </div>
       </div>
+
+      <style jsx>{`
+        .slick-dots {
+          bottom: -80px !important;
+        }
+
+        .slick-dots li.slick-active button:before {
+          opacity: 100 !important;
+          color: #9d1515 !important;
+        }
+        .slick-dots li button:before {
+          font-size: 12px !important;
+        }
+      `}</style>
     </>
   );
 };
