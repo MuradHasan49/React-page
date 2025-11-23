@@ -163,21 +163,20 @@ const CardDetails = () => {
       <div className="container mx-auto p-5 relative">
         {/* Custom buttons on top */}
 
-<div className="flex justify-end gap-3 mb-3 absolute -top-3 right-10 z-10">
-  <button
-    onClick={() => swiperRef.current.swiper.slideNext()}
-    className="text-3xl w-[46px] h-[46px] rounded-full bg-[#F5F5F5] flex items-center justify-center shadow-lg transition-all duration-300 ease-in-out hover:scale-110"
-  >
-   <IoMdArrowBack className="" />
-  </button>
-  <button
-    onClick={() => swiperRef.current.swiper.slidePrev()}
-    className="text-3xl w-[46px] h-[46px] rounded-full bg-[#F5F5F5] flex items-center justify-center shadow-lg transition-all duration-300 ease-in-out hover:scale-110"
-  >
-    <IoMdArrowForward />
-  </button>
-</div>
-
+        <div className="flex justify-end gap-3 mb-3 absolute -top-3 right-10 z-10">
+          <button
+            onClick={() => swiperRef.current.swiper.slideNext()}
+            className="text-3xl w-[46px] h-[46px] rounded-full bg-[#F5F5F5] flex items-center justify-center shadow-lg transition-all duration-300 ease-in-out hover:scale-110"
+          >
+            <IoMdArrowBack className="" />
+          </button>
+          <button
+            onClick={() => swiperRef.current.swiper.slidePrev()}
+            className="text-3xl w-[46px] h-[46px] rounded-full bg-[#F5F5F5] flex items-center justify-center shadow-lg transition-all duration-300 ease-in-out hover:scale-110"
+          >
+            <IoMdArrowForward />
+          </button>
+        </div>
 
         <Swiper
           ref={swiperRef}

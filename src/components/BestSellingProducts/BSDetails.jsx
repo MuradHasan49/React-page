@@ -48,16 +48,6 @@ const BSDetails = () => {
             />
 
             <SalesCard
-              Discount=""
-              img="/Sell/Frame612.png"
-              h2="Small BookSelf"
-              price="$120"
-              DiscountPrice="$160"
-              rating={3}
-              totaled={49}
-            />
-
-            <SalesCard
               Discount="-35%"
               img="/Flash/keyboard.png"
               h2="AK-900 Wired Keyboard"

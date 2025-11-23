@@ -45,7 +45,7 @@ const MusicExperience = () => {
         />
 
         <div className="absolute inset-0 flex flex-col items-start justify-center text-left px-6 sm:px-10 md:px-16 gap-6 sm:gap-8">
-          <span className="text-xs sm:text-sm font-semibold text-white uppercase tracking-wider">
+          <span className="text-[#DB4444] text-xs sm:text-sm font-semibold uppercase tracking-wider">
             Categories
           </span>
 

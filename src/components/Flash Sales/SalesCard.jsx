@@ -11,10 +11,10 @@ const SalesCard = ({
 }) => {
   return (
     <>
-      <div className="container xl: mx-auto p-5">
+      <div className="container xl: mx-auto py-10 p-5">
         <div className="flex justify-center">
           <div
-            className="xl:w-68 h-88 sm:w-88 sm:h-98 rounded-lg p-4 shadow-lg group hover:  
+            className="xl:w-66 h-88 sm:w-88 sm:h-98 rounded-lg p-4 shadow-lg group hover:  
         transition-all duration-300 ease-in-out cursor-pointer "
           >
             <div className="h-62 w-full bg-[#F5F5F5] rounded-lg relative">

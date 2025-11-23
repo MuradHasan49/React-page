@@ -20,7 +20,7 @@ const BannerSlider = () => {
   return (
     <div className="container  mx-auto flex flex-col md:flex-row justify-between items-start gap-5 p-4 md:p-6">
       {/* LEFT CATEGORY LIST */}
-      <div className="flex flex-col h-[430px] border-r border-gray-300 text-gray-700 font-medium w-full md:w-1/4">
+      <div className="flex flex-col h-[358px] border-r border-gray-300 text-gray-700 font-medium w-full md:w-1/4">
 
         {/* EXTRA CATEGORY LIST — NO MAP USED */}
         <ul className="space-y-2 mt-1 flex flex-col justify-between h-full text-xl">

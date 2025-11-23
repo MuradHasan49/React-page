@@ -77,24 +77,6 @@ const OurProductsDetails = () => {
       rating: 5,
       totaled: 88,
     },
-        {
-      Discount: "",
-      img: "/OurProducts/Frame4.png",
-      h2: "Jr. Zoom Soccer Cleats",
-      price: "$370",
-      DiscountPrice: "$400",
-      rating: 5,
-      totaled: 88,
-    },
-        {
-      Discount: "NEW",
-      img: "/OurProducts/New-Mercedes-Benz.png",
-      h2: "Kids Electric Car",
-      price: "$370",
-      DiscountPrice: "$400",
-      rating: 5,
-      totaled: 88,
-    },
   ];
 
   const [visibleProducts, setVisibleProducts] = useState(products);
