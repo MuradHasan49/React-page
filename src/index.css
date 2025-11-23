@@ -17,3 +17,17 @@
 @utility container {
   margin: auto;
 };
+
+.slick-dots{
+  bottom: -80px !important;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 100 !important;
+    color: #9d1515 !important; ;
+
+}
+.slick-dots li button:before{
+    font-size: 12px !important;
+
+}
