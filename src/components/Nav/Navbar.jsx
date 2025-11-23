@@ -120,7 +120,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link to="SignUp" className="hover:text-black">
+              <Link to="/SignUp" className="hover:text-black">
                 Sign Up
               </Link>
             </li>
@@ -212,7 +212,7 @@ const Navbar = () => {
             About
           </Link>
           <Link
-            to="#"
+            to="SignUp"
             className="block py-2 font-semibold text-gray-700 hover:text-black"
           >
             Sign Up
