@@ -26,7 +26,7 @@ const About = () => {
 
     responsive: [
       {
-        breakpoint: 768, // below 768px = phone/tablet
+        breakpoint: 768,
         settings: {
           slidesToShow: 1, 
           slidesToScroll: 1,
