@@ -11,6 +11,7 @@ import AbCard2 from "./AbCard2";
 import Ph from "../../assets/Pages/Frame 874.png";
 import Ph2 from "../../assets/Pages/Frame 875.png";
 import Ph3 from "../../assets/Pages/Frame 876.png";
+import SupportDetails from "../../components/support/SupportDetails";
 
 const About = () => {
   const settings = {
@@ -63,66 +64,71 @@ const About = () => {
           />
         </div>
 
-<div className="py-34">
-        <div className="slider-container">
-          <Slider {...settings}>
-            <div>
-              <AbCard2 Img={Ph} h1={"Tom Cruise"} p={"Founder & Chairman"} />
-            </div>
-            <div>
-              <AbCard2 Img={Ph2} h1={"Emma Watson"} p={"Managing Director"} />
-            </div>
-            <div>
-              <AbCard2 Img={Ph3} h1={"Will Smith"} p={"Product Designer"} />
-            </div>
-            <div>
-              <AbCard2 Img={Ph} h1={"Tom Cruise"} p={"Founder & Chairman"} />
-            </div>
-            <div>
-              <AbCard2 Img={Ph2} h1={"Emma Watson"} p={"Managing Director"} />
-            </div>
-            <div>
-              <AbCard2 Img={Ph3} h1={"Will Smith"} p={"Product Designer"} />
-            </div>
-            <div>
-              <AbCard2 Img={Ph} h1={"Tom Cruise"} p={"Founder & Chairman"} />
-            </div>
-            <div>
-              <AbCard2 Img={Ph2} h1={"Emma Watson"} p={"Managing Director"} />
-            </div>
-            <div>
-              <AbCard2 Img={Ph3} h1={"Will Smith"} p={"Product Designer"} />
-            </div>
-            <div>
-              <AbCard2 Img={Ph} h1={"Tom Cruise"} p={"Founder & Chairman"} />
-            </div>
-            <div>
-              <AbCard2 Img={Ph2} h1={"Emma Watson"} p={"Managing Director"} />
-            </div>
-            <div>
-              <AbCard2 Img={Ph3} h1={"Will Smith"} p={"Product Designer"} />
-            </div>
-            <div>
-              <AbCard2 Img={Ph} h1={"Tom Cruise"} p={"Founder & Chairman"} />
-            </div>
-            <div>
-              <AbCard2 Img={Ph2} h1={"Emma Watson"} p={"Managing Director"} />
-            </div>
-            <div>
-              <AbCard2 Img={Ph3} h1={"Will Smith"} p={"Product Designer"} />
-            </div>
-            <div>
-              <AbCard2 Img={Ph} h1={"Tom Cruise"} p={"Founder & Chairman"} />
-            </div>
-            <div>
-              <AbCard2 Img={Ph2} h1={"Emma Watson"} p={"Managing Director"} />
-            </div>
-            <div>
-              <AbCard2 Img={Ph3} h1={"Will Smith"} p={"Product Designer"} />
-            </div>
-          </Slider>
+        <div className="py-34">
+          <div className="slider-container">
+            <Slider {...settings}>
+              <div>
+                <AbCard2 Img={Ph} h1={"Tom Cruise"} p={"Founder & Chairman"} />
+              </div>
+              <div>
+                <AbCard2 Img={Ph2} h1={"Emma Watson"} p={"Managing Director"} />
+              </div>
+              <div>
+                <AbCard2 Img={Ph3} h1={"Will Smith"} p={"Product Designer"} />
+              </div>
+              <div>
+                <AbCard2 Img={Ph} h1={"Tom Cruise"} p={"Founder & Chairman"} />
+              </div>
+              <div>
+                <AbCard2 Img={Ph2} h1={"Emma Watson"} p={"Managing Director"} />
+              </div>
+              <div>
+                <AbCard2 Img={Ph3} h1={"Will Smith"} p={"Product Designer"} />
+              </div>
+              <div>
+                <AbCard2 Img={Ph} h1={"Tom Cruise"} p={"Founder & Chairman"} />
+              </div>
+              <div>
+                <AbCard2 Img={Ph2} h1={"Emma Watson"} p={"Managing Director"} />
+              </div>
+              <div>
+                <AbCard2 Img={Ph3} h1={"Will Smith"} p={"Product Designer"} />
+              </div>
+              <div>
+                <AbCard2 Img={Ph} h1={"Tom Cruise"} p={"Founder & Chairman"} />
+              </div>
+              <div>
+                <AbCard2 Img={Ph2} h1={"Emma Watson"} p={"Managing Director"} />
+              </div>
+              <div>
+                <AbCard2 Img={Ph3} h1={"Will Smith"} p={"Product Designer"} />
+              </div>
+              <div>
+                <AbCard2 Img={Ph} h1={"Tom Cruise"} p={"Founder & Chairman"} />
+              </div>
+              <div>
+                <AbCard2 Img={Ph2} h1={"Emma Watson"} p={"Managing Director"} />
+              </div>
+              <div>
+                <AbCard2 Img={Ph3} h1={"Will Smith"} p={"Product Designer"} />
+              </div>
+              <div>
+                <AbCard2 Img={Ph} h1={"Tom Cruise"} p={"Founder & Chairman"} />
+              </div>
+              <div>
+                <AbCard2 Img={Ph2} h1={"Emma Watson"} p={"Managing Director"} />
+              </div>
+              <div>
+                <AbCard2 Img={Ph3} h1={"Will Smith"} p={"Product Designer"} />
+              </div>
+            </Slider>
+          </div>
         </div>
-      </div>
+
+
+        <div className="">
+            <SupportDetails/>
+        </div>
       </div>
     </>
   );
