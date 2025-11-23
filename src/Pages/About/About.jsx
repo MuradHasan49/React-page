@@ -14,22 +14,32 @@ import Ph3 from "../../assets/Pages/Frame 876.png";
 import SupportDetails from "../../components/support/SupportDetails";
 
 const About = () => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 3,
-    autoplay: true,
-    autoplaySpeed: 2000,
-    pauseOnHover: true,
-    
-  };
+const settings = {
+  dots: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 3,
+  slidesToScroll: 3,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  pauseOnHover: true,
+
+  responsive: [
+    {
+      breakpoint: 768, // below 768px = phone/tablet
+      settings: {
+        slidesToShow: 1, // show 1 slide on phone
+        slidesToScroll: 1,
+      },
+    },
+  ],
+};
+
 
   return (
     <>
-      <div className="flex">
-        <div className="container w-[525px] flex flex-col gap-10 ">
+      <div className="md:flex">
+        <div className="container p-5 md:p-0 md:w-[525px] flex flex-col gap-10 ">
           <h1 className="text-[54px] font-semibold leading-16 tracking-[6%] ">
             Our Story
           </h1>
@@ -53,7 +63,7 @@ const About = () => {
       </div>
 
       <div className="container ">
-        <div className="flex justify-between">
+        <div className="flex flex-col items-center gap-5  md:flex md:flex-row md:gap-0 md:justify-between">
           <AbCard Photo={Photo} h1={"10.5k "} p={"Sallers active our site"} />
           <AbCard Photo={Photo} h1={"33k "} p={"Mopnthly Produduct Sale"} />
           <AbCard
@@ -68,9 +78,9 @@ const About = () => {
           />
         </div>
 
-        <div className="py-34">
-          <div className="slider-container">
-            <Slider {...settings}>
+        <div className="py-34 ">
+          <div className="slider-container p-[30px] md:p-0">
+            <Slider className="" {...settings}>
               <div>
                 <AbCard2 Img={Ph} h1={"Tom Cruise"} p={"Founder & Chairman"} />
               </div>
@@ -129,9 +139,8 @@ const About = () => {
           </div>
         </div>
 
-
         <div className="">
-            <SupportDetails/>
+          <SupportDetails />
         </div>
       </div>
     </>
