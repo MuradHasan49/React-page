@@ -24,10 +24,10 @@ const SignUp = () => {
           </div>
 
           <div className="flex flex-col gap-8">
-            <button className="w-full px-[122px] py-[16px] text-white bg-[#DB4444] rounded-md cursor-pointer ">Create Account</button>
-            <div className="flex items-center gap-2 border border-gray-300 rounded-md  px-4 py-3 justify-center cursor-pointer">
+            <button className="w-full px-[122px] py-[16px] text-white bg-[#DB4444] rounded-md cursor-pointer  hover:scale-105 transition-all duration-300">Create Account</button>
+            <div className="flex items-center gap-2 border border-gray-300 rounded-md  px-4 py-3 justify-center cursor-pointer hover:scale-105 transition-all duration-300">
               <FcGoogle />
-              <button className="cursor-pointer"> Sign up with Google</button>
+              <button className="cursor-pointer "> Sign up with Google</button>
             </div>
           </div>
 
