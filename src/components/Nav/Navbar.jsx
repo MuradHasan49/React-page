@@ -90,7 +90,7 @@ const Navbar = () => {
           <ul className="flex gap-4 lg:gap-12">
             <li><Link to="/" className="hover:text-black">Home</Link></li>
             <li><Link to="/contact" className="hover:text-black">Contact</Link></li>
-            <li><Link to="/about" className="hover:text-black">About</Link></li>
+            <li><Link to="/About" className="hover:text-black">About</Link></li>
             <li><Link to="#" className="hover:text-black">Sign Up</Link></li>
           </ul>
         </div>
