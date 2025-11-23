@@ -7,7 +7,6 @@ const Contact = () => {
     <>
       <div className="flex flex-col items-center md:flex gap-[30px] py-32 md:flex-row md:justify-center">
 
-        {/* left side */}
         <div className=" p-5 md:p-6 rounded-[10px] border border-[#E0E0E0] shadow-lg ">
           <div className="w-[270px] h-full flex flex-col justify-between">
             <div className="">
