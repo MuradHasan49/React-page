@@ -35,35 +35,35 @@ const ProfileMenu = () => {
 
       {/* Popup Menu */}
       {open && (
-        <div className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg border border-gray-200 z-50">
-          <ul className="flex flex-col py-2">
+        <div className="glass-dropdown ">
+          <ul className="glass-list flex flex-col py-2">
             <Link to="/Error">
               {" "}
-              <li className="px-4 py-2 text-gray-700 hover:bg-gray-100 cursor-pointer transition-colors">
+              <li className="my-list px-4 py-2 text-white hover:bg-black rounded-lg cursor-pointer transition-colors">
                 My Account
               </li>
             </Link>
             <Link to="/Error">
               {" "}
-              <li className="px-4 py-2 text-gray-700 hover:bg-gray-100 cursor-pointer transition-colors">
+              <li className="my-list px-4 py-2 text-white hover:bg-black rounded-lg cursor-pointer transition-colors">
                 My Orders
               </li>
             </Link>
             <Link to="/Error">
               {" "}
-              <li className="px-4 py-2 text-gray-700 hover:bg-gray-100 cursor-pointer transition-colors">
+              <li className="my-list px-4 py-2 text-white hover:bg-black rounded-lg cursor-pointer transition-colors">
                 My Cancellations
               </li>
             </Link>
             <Link to="/Error">
               {" "}
-              <li className="px-4 py-2 text-gray-700 hover:bg-gray-100 cursor-pointer transition-colors">
+              <li className="my-list px-4 py-2 text-white hover:bg-black rounded-lg cursor-pointer transition-colors">
                 My Reviews
               </li>
             </Link>
             <Link to="/Error">
               {" "}
-              <li className="px-4 py-2 text-gray-700 hover:bg-gray-100 cursor-pointer transition-colors">
+              <li className="my-list px-4 py-2 text-white hover:bg-black rounded-lg cursor-pointer transition-colors">
                 Logout
               </li>
             </Link>
@@ -128,32 +128,38 @@ const Navbar = () => {
                 Home
               </Link>
             </li>
-            <li className="py-1 text-gray-700  cursor-pointer 
+            <li
+              className="py-1 text-gray-700  cursor-pointer 
                     relative 
                     after:content-[''] after:absolute after:left-0 after:bottom-0 
                     after:h-[2px] after:bg-gray-600 after:w-0 
                     after:transition-all after:duration-300 
-                    hover:after:w-full">
+                    hover:after:w-full"
+            >
               <Link to="/contact" className="hover:text-black">
                 Contact
               </Link>
             </li>
-            <li className="py-1 text-gray-700  cursor-pointer 
+            <li
+              className="py-1 text-gray-700  cursor-pointer 
                     relative 
                     after:content-[''] after:absolute after:left-0 after:bottom-0 
                     after:h-[2px] after:bg-gray-600 after:w-0 
                     after:transition-all after:duration-300 
-                    hover:after:w-full">
+                    hover:after:w-full"
+            >
               <Link to="/About" className="hover:text-black">
                 About
               </Link>
             </li>
-            <li className="py-1 text-gray-700  cursor-pointer 
+            <li
+              className="py-1 text-gray-700  cursor-pointer 
                     relative 
                     after:content-[''] after:absolute after:left-0 after:bottom-0 
                     after:h-[2px] after:bg-gray-600 after:w-0 
                     after:transition-all after:duration-300 
-                    hover:after:w-full">
+                    hover:after:w-full"
+            >
               <Link to="/SignUp" className="hover:text-black">
                 Sign Up
               </Link>
@@ -258,6 +264,77 @@ const Navbar = () => {
           </Link>
         </div>
       )}
+      <style jsx>{`
+        /* container (use absolute/right/top as needed in your layout) */
+        .glass-dropdown {
+          position: absolute;
+          right: 0;
+          margin-top: 8px; /* mt-2 */
+          width: 192px; /* w-48 */
+          border-radius: 12px; /* rounded-md */
+          overflow: hidden; /* keep glossy/top gradient inside rounded corner */
+          z-index: 9999;
+
+          /* dark gradient over blurred background */
+          background: rgba(0, 0, 0, 0.2) ;
+
+          /* glass blur (requires a background behind it to be visible) */
+          backdrop-filter: blur(34px) saturate(120%);
+          -webkit-backdrop-filter: blur(24px) saturate(120%);
+
+          /* thin translucent border */
+          border: 1px solid rgba(0, 0, 0, 0.25);
+
+        }
+
+        /* list reset / spacing */
+        .glass-list {
+          list-style: none;
+          margin: 0;
+          padding: 10px 0; /* vertical space */
+        }
+
+        /* each item */
+        .glass-list li {
+          padding: 12px 18px;
+          color: #ffffff; /* white text */
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 1.1;
+          cursor: pointer;
+          position: relative;
+          transition: background-color 0.18s ease, transform 0.12s ease;
+          /* tiny text glow to show against the dark */
+          text-shadow: 0 1px 0 rgba(0, 0, 0, 0.35),
+            0 2px 8px rgba(0, 0, 0, 0.25);
+        }
+
+        /* hover effect: faint highlight and slight slide */
+        .glass-list li:hover {
+          background:  rgba(255, 255, 255, 0.02)
+          
+          transform: translateX(2px);
+        }
+
+        /* optional divider between items */
+        .glass-list li + li {
+          border-top: 1px solid rgba(255, 255, 255, 0.03);
+        }
+
+        /* rounded corner smoothing on first/last items (if needed) */
+        .glass-list li:first-child {
+          padding-top: 14px;
+        }
+        .glass-list li:last-child {
+          padding-bottom: 14px;
+        }
+
+        /* small accessibility: focus state */
+        .glass-list li:focus {
+          outline: none;
+          background: rgba(255, 255, 255, 0.06);
+        }
+      `}</style>
     </nav>
   );
 };
