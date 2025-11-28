@@ -173,7 +173,7 @@ const Navbar = () => {
             <input
               type="text"
               placeholder=" What are you looking for ? "
-              className="w-65 h-10 px-2 py-4 rounded-lg border text-md border-gray-300 outline-none"
+              className="w-65 h-10 px-2 py-4 rounded-sm border text-md border-gray-300 outline-none "
             />
             {/* Search icon as button */}
             <div className="">
