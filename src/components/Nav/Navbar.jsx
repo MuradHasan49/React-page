@@ -269,16 +269,15 @@ const Navbar = () => {
         .glass-dropdown {
           position: absolute;
           right: 0;
-          margin-top: 8px; /* mt-2 */
-          width: 192px; /* w-48 */
-          border-radius: 12px; /* rounded-md */
-          overflow: hidden; /* keep glossy/top gradient inside rounded corner */
+          margin-top: 8px; 
+          width: 192px; 
+          border-radius: 12px;
+          overflow: hidden; 
           z-index: 9999;
 
-          /* dark gradient over blurred background */
           background: rgba(0, 0, 0, 0.2) ;
 
-          /* glass blur (requires a background behind it to be visible) */
+
           backdrop-filter: blur(34px) saturate(120%);
           -webkit-backdrop-filter: blur(24px) saturate(120%);
 
