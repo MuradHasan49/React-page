@@ -307,19 +307,18 @@ const Navbar = () => {
             0 2px 8px rgba(0, 0, 0, 0.25);
         }
 
-        /* hover effect: faint highlight and slight slide */
         .glass-list li:hover {
           background:  rgba(255, 255, 255, 0.02)
           
           transform: translateX(2px);
         }
 
-        /* optional divider between items */
+/
         .glass-list li + li {
           border-top: 1px solid rgba(255, 255, 255, 0.03);
         }
 
-        /* rounded corner smoothing on first/last items (if needed) */
+
         .glass-list li:first-child {
           padding-top: 14px;
         }
