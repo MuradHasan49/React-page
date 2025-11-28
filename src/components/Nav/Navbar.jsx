@@ -265,7 +265,7 @@ const Navbar = () => {
         </div>
       )}
       <style jsx>{`
-        /* container (use absolute/right/top as needed in your layout) */
+
         .glass-dropdown {
           position: absolute;
           right: 0;
@@ -281,29 +281,28 @@ const Navbar = () => {
           backdrop-filter: blur(34px) saturate(120%);
           -webkit-backdrop-filter: blur(24px) saturate(120%);
 
-          /* thin translucent border */
           border: 1px solid rgba(0, 0, 0, 0.25);
 
         }
 
-        /* list reset / spacing */
+     /
         .glass-list {
           list-style: none;
           margin: 0;
-          padding: 10px 0; /* vertical space */
+          padding: 10px 0;
         }
 
-        /* each item */
+
         .glass-list li {
           padding: 12px 18px;
-          color: #ffffff; /* white text */
+          color: #ffffff; 
           font-weight: 500;
           font-size: 14px;
           line-height: 1.1;
           cursor: pointer;
           position: relative;
           transition: background-color 0.18s ease, transform 0.12s ease;
-          /* tiny text glow to show against the dark */
+
           text-shadow: 0 1px 0 rgba(0, 0, 0, 0.35),
             0 2px 8px rgba(0, 0, 0, 0.25);
         }
