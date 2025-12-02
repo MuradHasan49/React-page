@@ -177,13 +177,13 @@ const Navbar = () => {
             />
             {/* Search icon as button */}
             <div className="">
-              <Link to={"/Error"}>
+              <Link to={"/Wishlist"}>
                 {" "}
                 <button className="p-1 hover:bg-gray-100 rounded-full transition-colors">
                   <HiOutlineEye className="w-6 h-6 cursor-pointer" />
                 </button>
               </Link>
-              <Link to={"/Error"}>
+              <Link to={"/Wishlist"}>
                 {" "}
                 <button className="p-1 hover:bg-gray-100 rounded-full transition-colors">
                   <PiShoppingCartBold className="w-6 h-6 cursor-pointer" />

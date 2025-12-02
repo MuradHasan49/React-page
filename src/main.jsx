@@ -10,6 +10,7 @@ import About from "./Pages/About/About.jsx";
 import SignUp from "./Pages/SignUp.jsx";
 import Login from "./Pages/Login.jsx";
 import Error from "./Pages/Error.jsx";
+import Wishlist from "./Pages/Wishlist.jsx"
 
 // main.jsx
 const router = createBrowserRouter([
@@ -23,6 +24,7 @@ const router = createBrowserRouter([
       { path: "SignUp", Component: SignUp },
       { path: "Login", Component: Login },
       { path: "Error", Component: Error },
+      { path: "Wishlist", Component: Wishlist },
     ],
   }
 ]);
